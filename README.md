@@ -1,20 +1,20 @@
-Created By Mzy_Lan 
+about:
+	
+	foot print anyone in web google,facebook,twitter...
 
-Requirements:
-	#google LIB:
-		pip3 install google
+REQUIR:
 
-How to use: 
-	you can chnage the query Variabl for you search 
-	and a tld argument for subdomaine 
+	python3
+	pip3
+	google library
+	#apt-get install python3-pip
+	#pip3 install google
 
-
-you can use tow arguments in this script domain name and nbr for searche 
-
-
-first in string 
-next in integr 
-
-
-gooood LUUUK                   >>> GH1L35
-
+How To use:
+	
+	python3 google.py 
+		
+		Search for: (STR Value)
+		How many time: (You can loop the result to get a facke NEWS in google)
+		Mode of search (verbos/silent): (We have tow mod first VERBOS out the result as screen secand as text file
+HACK THE PLANET ! By GH1L3S
