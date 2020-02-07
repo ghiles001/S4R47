@@ -2,7 +2,7 @@ from googlesearch import search
 
 query = str(input("Search for : "))
 a = int(input("how many times: "))
-mod = str(input("Mode of search (verbos/silent): "))
+mod = str(input("Mode of search (verbos/silent/no): "))
 
 if mod == "verbos" or mod == "VERBOS" or mod == "Verbos":
 
@@ -28,5 +28,13 @@ elif mod == "silent" or mod == "SILENT" or mod == "Silent":
             k += 1
             w_file(t)
         print("{} Result".format(k))
+elif mod == "no" or mod == "No" or mod == "NO":
+
+    for i in range(a):
+        for t in search(query, tld = 'com', lang = 'en', num = 10, start = 0, stop = None, pause = 2.0 ):
+            k += 1
+        print("{} Result".format(k))
+
+
 else:
     print("EROR in mode of search !!!")
