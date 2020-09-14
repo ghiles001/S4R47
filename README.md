@@ -1,6 +1,6 @@
 about:
 	
-	foot print anyone in web google,facebook,twitter...
+    foot print anyone in web google,facebook,twitter...
 
 REQUIR:
 
@@ -12,9 +12,6 @@ REQUIR:
 
 How To use:
 	
-	python3 google.py 
-		
-		Search for: (STR Value)
-		How many time: (You can loop the result to get a facke NEWS in google)
-		Mode of search (verbos/silent): (We have tow mod first VERBOS out the result as screen secand as text file
+	python3 S4RA.py # to see Help
+	Usage: S4R4.py FirstName LastName
 HACK THE PLANET ! By GH1L3S
